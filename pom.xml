@@ -680,7 +680,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.6.0</version>
             <configuration>
-              <workingDirectory>${project.basedir}/src/main/webapp</workingDirectory>
+              <workingDirectory>${project.basedir}</workingDirectory>
               <mainClass>${start.class}</mainClass>
             </configuration>
             <executions>
